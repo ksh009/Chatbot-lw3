@@ -1,4 +1,4 @@
-// File: /home/kyle/Desktop/interactions-mgmt/5.LW3_Chatbot/src/app/page.tsx
+// File: /home/kyle/Desktop/AI-stuff/1.LW3/1.chatbot/Chatbot-lw3/src/app/page.tsx
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
