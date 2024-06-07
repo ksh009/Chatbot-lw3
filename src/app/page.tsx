@@ -22,6 +22,11 @@ export default function Home() {
     console.log("My Response!!!!");
   };
 
+  const logThis = (string: string) : string => {
+    console.log(string)
+    return string;
+  }
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between px-24 py-5">
       <h1 className="text-5xl font-sans">ChatterBot</h1>
@@ -60,7 +65,7 @@ export default function Home() {
             onKeyDown={Submit}
           />
           <button
-            onClick={() => console.log("Prompt Submitted!!!")}
+            onClick={() => logThis("hello")}
             className="w-[15%] bg-blue-500 px-4 py-2 rounded-r"
           >
             send
